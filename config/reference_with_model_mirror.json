@@ -1,0 +1,16 @@
+{
+    "camera": {
+        "source": 2,
+        "width": 640,
+        "height": 480,
+        "grab": 33,
+        "clock": 15,
+        "fullscreen": false,
+	"calibration" : "data/calibration.npz"
+    },
+    "models": {
+        "models_dir": "data/PelvisPhantom_mirror_flip/",
+	"ref_file": "data/reference.txt",
+	"reference_to_model" : "CT_To_world_mirror.txt.old"
+    }
+}
