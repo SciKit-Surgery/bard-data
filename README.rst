@@ -1,5 +1,5 @@
-Basic Augmented Reality Demo.
-===============================
+Basic Augmented Reality Demo Data
+=================================
 
 .. image:: https://github.com/SciKit-Surgery/scikit-surgerybard/raw/master/sksbard_logo.png
    :height: 128px
