@@ -1,0 +1,32 @@
+{
+    "camera": {
+        "source": 2, 
+        "window size": [640, 480],
+        "calibration directory": "calibration/"
+    },
+    "tracker" : {
+	"type" : "sksaruco",
+	"source" : 2,
+	"calibration directory": "calibration/",
+	"smoothing buffer": 10,
+	"rigid bodies" : [ {
+			"name" : "modelreference",
+                        "filename" : "aruco_patterns/science_of_surgery_ref_2Lines.txt",
+                	"aruco dictionary" : "DICT_ARUCO_ORIGINAL"
+			}
+			]
+
+    },
+	
+    "models": {
+        "models_dir": "models",
+        "reference_to_model": "transforms/reference_to_model.txt",
+        "visible_anatomy": 1
+    },
+    "interaction": {
+        "keyboard": true,
+        "footswitch": true,
+        "maximum delay": 2.0,
+        "mouse": true
+    }
+}
