@@ -20,7 +20,7 @@
 	
     "models": {
         "models_dir": "models",
-        "reference_to_model": "ref-to-model_00.txt",
+        "reference_to_model": "ref-to-model_iab.txt",
         "visible_anatomy": 1
     },
     "interaction": {
