@@ -1,0 +1,32 @@
+{
+    "camera": {
+        "source": 2, 
+        "window size": [640, 480],
+        "calibration directory": "calibration/"
+    },
+    "tracker" : {
+	"type" : "sksaruco",
+	"source" : "none",
+	"calibration directory": "calibration/",
+	"smoothing buffer": 10,
+	"rigid bodies" : [ {
+			"name" : "modelreference",
+                        "filename" : "iab_reference.txt",
+                	"aruco dictionary" : "DICT_ARUCO_ORIGINAL"
+			}
+			]
+
+    },
+	
+    "models": {
+        "models_dir": "models",
+        "reference_to_model": "ref-to-model_00.txt",
+        "visible_anatomy": 1
+    },
+    "interaction": {
+        "keyboard": true,
+        "footswitch": true,
+        "maximum delay": 2.0,
+        "mouse": true
+    }
+}
