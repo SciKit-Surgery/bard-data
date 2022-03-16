@@ -1,8 +1,8 @@
 {
     "camera": {
-        "source": 0, 
-        "window size": [640, 480],
-        "calibration directory": "calibration/"
+        "source": 2, 
+        "window size": [1920, 1080],
+        "calibration directory": "1920Calib/"
     },
     "tracker" : {
 	"type" : "sksaruco",
@@ -20,7 +20,7 @@
 	
     "models": {
         "models_dir": "models",
-        "reference_to_model": "bard_model2modelref.txt",
+        "reference_to_model": "model-to-ref-iab.txt",
 	"target_model_vertices": [2000, 100, 100, 2000],
         "visible_anatomy": 1
     },
