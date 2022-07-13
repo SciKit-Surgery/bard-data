@@ -1,0 +1,36 @@
+{
+    "camera": {
+        "source": 1,
+        "window size": [640, 480],
+        "calibration directory": "calibration/matts_mbp_640_x_480"
+    },
+    "tracker": {
+	    "source" : "none",
+            "calibration directory": "calibration/matts_mbp_640_x_480",
+            "type" : "sksaruco",
+	    "smoothing buffer": 3,
+	    "rigid bodies" : [
+		    { 
+			    "name" : "modelreference",
+		    	    "filename" : "patterns/reference_for_small_liver.txt",
+		            "aruco dictionary" : "DICT_ARUCO_ORIGINAL" 
+		    }
+	    ]
+	},
+
+    "models": {
+        "models_dir": "small_liver_green",
+        "reference_to_model": "reference_to_model.txt",
+	"model_visibilities": [1, 1, 1, 1],
+	"model_opacities": [1.0, 1.0, 1.0, 1.0],
+	"model_representations": ["s", "s", "s", "s"],
+        "visible_anatomy": 1
+    },
+    "interaction": {
+        "keyboard": false,
+        "footswitch": false,
+        "maximum delay": 2.0,
+        "mouse": true,
+	"green": true
+    }
+}
