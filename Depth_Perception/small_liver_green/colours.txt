@@ -1,0 +1,4 @@
+0_small_liver_phantom_patch.stl, 1.0, 0.0, 0.0
+1_hepatic veins_scaled.stl, 1.0, 0.0, 1.0
+2_lump_scale_50.stl, 0, 0.5, 0.0
+3_lump_scale_50_65x.stl, 0, 0.5, 0.0
